@@ -2,8 +2,8 @@
 
 [ext_resource type="PackedScene" uid="uid://y5a4e3ajuy2r" path="res://scenes/StonePlatform.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://datfp8kxjrjg" path="res://scenes/BlueShip.tscn" id="2"]
-[ext_resource type="Script" uid="uid://bsuv2svmaqypq" path="res://scenes/PlatformBlue.gd" id="3"]
-[ext_resource type="Script" uid="uid://x2rdmjyr1ttw" path="res://scenes/ObjectiveArea.gd" id="4"]
+[ext_resource type="Script" uid="uid://bsuv2svmaqypq" path="res://scripts/PlatformBlue.gd" id="3"]
+[ext_resource type="Script" uid="uid://x2rdmjyr1ttw" path="res://scripts/ObjectiveArea.gd" id="4"]
 
 [sub_resource type="RectangleShape2D" id="1"]
 size = Vector2(138.75, 79)

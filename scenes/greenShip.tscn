@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://2l8dbfsh07v1"]
+
+[ext_resource type="Texture2D" uid="uid://3ruxfsvp87ub" path="res://assets/playerShip1_green.png" id="1_phcax"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lumop"]
+size = Vector2(101, 79)
+
+[node name="Node2D" type="CharacterBody2D" unique_id=102682310]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1479610788]
+texture = ExtResource("1_phcax")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1425137871]
+position = Vector2(-0.5, -1.5)
+shape = SubResource("RectangleShape2D_lumop")

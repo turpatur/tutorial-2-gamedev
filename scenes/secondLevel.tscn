@@ -1,0 +1,121 @@
+[gd_scene format=3 uid="uid://ml0md1hol1cm"]
+
+[ext_resource type="Texture2D" uid="uid://dniws1gt2m3wl" path="res://assets/Small 512x512/Blue Nebula/Blue_Nebula_01-512x512.png" id="1_bhgu2"]
+[ext_resource type="PackedScene" uid="uid://2l8dbfsh07v1" path="res://scenes/greenShip.tscn" id="2_515wi"]
+[ext_resource type="Script" uid="uid://bof5gr7ns5et8" path="res://scripts/GreenShipController.gd" id="3_3ohuy"]
+[ext_resource type="PackedScene" uid="uid://ct0jns3j6qqo6" path="res://scenes/snow_platform.tscn" id="3_7iccp"]
+[ext_resource type="PackedScene" uid="uid://y5a4e3ajuy2r" path="res://scenes/StonePlatform.tscn" id="5_3ohuy"]
+[ext_resource type="Texture2D" uid="uid://dh610bbucs6rh" path="res://assets/fasilkom.png" id="6_uyhfi"]
+[ext_resource type="Script" uid="uid://blkebd6wha61j" path="res://scripts/pacil_goal.gd" id="7_amx4x"]
+[ext_resource type="FontFile" uid="uid://fgmldhekluwk" path="res://assets/BoldPixels.ttf" id="7_vtey8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vtey8"]
+radius = 79.15807
+
+[node name="SecondLevel" type="Node" unique_id=1202152491]
+
+[node name="Nebula" type="Sprite2D" parent="." unique_id=408253735]
+position = Vector2(606.5, 412)
+scale = Vector2(2.3730469, 1.6328125)
+texture = ExtResource("1_bhgu2")
+
+[node name="greenShip" parent="." unique_id=102682310 instance=ExtResource("2_515wi")]
+position = Vector2(65, 569)
+script = ExtResource("3_3ohuy")
+
+[node name="PlatformBlock" type="Node2D" parent="." unique_id=2056383647]
+position = Vector2(287, 41)
+
+[node name="snowPlatform" parent="PlatformBlock" unique_id=181349283 instance=ExtResource("3_7iccp")]
+position = Vector2(828, -7)
+rotation = -1.5633303
+
+[node name="snowPlatform2" parent="PlatformBlock" unique_id=1330246187 instance=ExtResource("3_7iccp")]
+position = Vector2(827.9999, 62.999992)
+rotation = -1.5633303
+
+[node name="snowPlatform4" parent="PlatformBlock" unique_id=573342764 instance=ExtResource("3_7iccp")]
+position = Vector2(827.9999, 133)
+rotation = -1.5633303
+
+[node name="snowPlatform5" parent="PlatformBlock" unique_id=1295129247 instance=ExtResource("3_7iccp")]
+position = Vector2(827.9999, 203)
+rotation = -1.5633303
+
+[node name="snowPlatform3" parent="PlatformBlock" unique_id=1350647404 instance=ExtResource("3_7iccp")]
+position = Vector2(759, 273)
+
+[node name="snowPlatform6" parent="PlatformBlock" unique_id=828814290 instance=ExtResource("3_7iccp")]
+position = Vector2(688, 273)
+
+[node name="snowPlatform7" parent="PlatformBlock" unique_id=2015938393 instance=ExtResource("3_7iccp")]
+position = Vector2(618, 273)
+
+[node name="snowPlatform8" parent="PlatformBlock" unique_id=144923846 instance=ExtResource("3_7iccp")]
+position = Vector2(549, 273)
+
+[node name="stoneBlock" type="Node2D" parent="." unique_id=1729110257]
+
+[node name="StonePlatform2" parent="stoneBlock" unique_id=1387468583 instance=ExtResource("5_3ohuy")]
+position = Vector2(766, 248)
+rotation = 1.5708228
+collision_layer = 2
+collision_mask = 2
+
+[node name="StonePlatform3" parent="stoneBlock" unique_id=1740286510 instance=ExtResource("5_3ohuy")]
+position = Vector2(766, 177)
+rotation = 1.5708228
+collision_layer = 2
+collision_mask = 2
+
+[node name="StonePlatform4" parent="stoneBlock" unique_id=1126607256 instance=ExtResource("5_3ohuy")]
+position = Vector2(766, 106)
+rotation = 1.5708228
+collision_layer = 2
+collision_mask = 2
+
+[node name="StonePlatform5" parent="stoneBlock" unique_id=1018687732 instance=ExtResource("5_3ohuy")]
+position = Vector2(766, 34)
+rotation = 1.5708228
+collision_layer = 2
+collision_mask = 2
+
+[node name="pacilGoal" type="Area2D" parent="." unique_id=1227723973]
+position = Vector2(947, 129)
+script = ExtResource("7_amx4x")
+
+[node name="Sprite2D" type="Sprite2D" parent="pacilGoal" unique_id=2078792402]
+texture = ExtResource("6_uyhfi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pacilGoal" unique_id=1146816692]
+shape = SubResource("CircleShape2D_vtey8")
+
+[node name="pncLabel" type="Label" parent="." unique_id=1820048209]
+offset_left = 27.0
+offset_top = 127.0
+offset_right = 721.0
+offset_bottom = 215.0
+theme_override_fonts/font = ExtResource("7_vtey8")
+theme_override_font_sizes/font_size = 100
+text = "Point and Click!"
+
+[node name="guideLabel" type="Label" parent="." unique_id=397793735]
+offset_left = 17.0
+offset_top = 485.0
+offset_right = 332.0
+offset_bottom = 512.0
+theme_override_fonts/font = ExtResource("7_vtey8")
+theme_override_font_sizes/font_size = 30
+text = "Go through The Obstacle!"
+
+[node name="winLabel" type="Label" parent="." unique_id=567529141]
+visible = false
+offset_left = 518.0
+offset_top = 364.0
+offset_right = 1118.0
+offset_bottom = 497.0
+theme_override_fonts/font = ExtResource("7_vtey8")
+theme_override_font_sizes/font_size = 150
+text = "YOU WIN!"
+
+[connection signal="body_entered" from="pacilGoal" to="pacilGoal" method="_on_body_entered"]

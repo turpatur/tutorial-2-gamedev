@@ -1,2 +1,7 @@
 res://default_env.tres
+res://scenes/secondLevel.tscn
+res://scripts/GreenShipController.gd
+res://scenes/BlueShip.tscn
 res://scenes/MainLevel.tscn
+res://scripts/ObjectiveArea.gd
+res://scripts/pacil_goal.gd

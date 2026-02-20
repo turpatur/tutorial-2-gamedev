@@ -1,17 +1,60 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770908517
-default_env.tres::Environment::784183765299159521::1770883168::0::1::::<><><>0<>0<><>::
-::res://assets/::1770883168
-fasilkom.png::CompressedTexture2D::7716203008561212981::1770883168::1770883168::1::::<><><>0<>0<>34767e6ab5093914ddcaf5a1cc019799<>res://.godot/imported/fasilkom.png-811230bee752126972e823ef8f345618.ctex::
-icon.png::CompressedTexture2D::7346330604504066256::1770883168::1770883168::1::::<><><>0<>0<>aac28eefd6e47366da16a2567e23471a<>res://.godot/imported/icon.png-b6a7fb2db36edd3d95dc42f1dc8c1c5d.ctex::
-meteorBrown_big1.png::CompressedTexture2D::5959276255885206097::1770883168::1770883168::1::::<><><>0<>0<>9346686fff07b382cb3c440ff09a6085<>res://.godot/imported/meteorBrown_big1.png-4f51bd2307bfc1514c3fcc74f73cfab3.ctex::
-playerShip1_blue.png::CompressedTexture2D::7616533849599883667::1770883168::1770883168::1::::<><><>0<>0<>ee12715b5d80e0b21a701af3f62ae43a<>res://.godot/imported/playerShip1_blue.png-781545b5574b1ca3ebab9db6c0cd6317.ctex::
-playerShip1_green.png::CompressedTexture2D::2001637748197818689::1770883168::1770883168::1::::<><><>0<>0<>c5aeac611eceae5f9b6f1b79aafc4e3f<>res://.godot/imported/playerShip1_green.png-48682f9d49da962ab563a1bc5b94a765.ctex::
-snow.png::CompressedTexture2D::4888826356960029576::1770883168::1770883168::1::::<><><>0<>0<>192db43572aa783625f4a7dae8fd8d76<>res://.godot/imported/snow.png-929e917300e1d7cf8ce88dfddb03947d.ctex::
-stone.png::CompressedTexture2D::6534652574608454091::1770883168::1770883168::1::::<><><>0<>0<>7f92a9a2d73bf49940e0cc7493e66136<>res://.godot/imported/stone.png-3a1875e621a1b764516a9ea0026422f2.ctex::
-::res://scenes/::1770883239
-BlueShip.tscn::PackedScene::211729922060446004::1770883168::0::1::::<><><>0<>0<><>::uid://dgrrg14sgp4f4::::res://assets/playerShip1_blue.png
-MainLevel.tscn::PackedScene::5012948746790269291::1770883168::0::1::::<><><>0<>0<><>::uid://y5a4e3ajuy2r::::res://scenes/StonePlatform.tscn<>uid://datfp8kxjrjg::::res://scenes/BlueShip.tscn<>res://scenes/PlatformBlue.gd<>res://scenes/ObjectiveArea.gd
-ObjectiveArea.gd::GDScript::1671119794590757256::1770883168::0::1::::<>Area2D<><>0<>0<><>::
-PlatformBlue.gd::GDScript::3692431675949484974::1770883168::0::1::::<>Node2D<><>0<>0<><>::
-StonePlatform.tscn::PackedScene::1746515621318578487::1770883168::0::1::::<><><>0<>0<><>::uid://c0do1j2bc1edf::::res://assets/stone.png
+::res://::1771581921
+default_env.tres::Environment::784183765299159521::1771581921::0::1::::<><><>0<>0<><>::
+::res://assets/::1771582031
+BoldPixels.ttf::FontFile::364078900939914622::1771581959::1771582032::1::::<><><>0<>0<>2ae5fc2b687d59a43ff4ea759e30ae57<>res://.godot/imported/BoldPixels.ttf-d0ec95a09ea945cf4c172901e9f8b418.fontdata::
+fasilkom.png::CompressedTexture2D::7716203008561212981::1771575540::1771575540::1::::<><><>0<>0<>34767e6ab5093914ddcaf5a1cc019799<>res://.godot/imported/fasilkom.png-811230bee752126972e823ef8f345618.ctex::
+icon.png::CompressedTexture2D::7346330604504066256::1771575540::1771575540::1::::<><><>0<>0<>aac28eefd6e47366da16a2567e23471a<>res://.godot/imported/icon.png-b6a7fb2db36edd3d95dc42f1dc8c1c5d.ctex::
+meteorBrown_big1.png::CompressedTexture2D::5959276255885206097::1771575540::1771575540::1::::<><><>0<>0<>9346686fff07b382cb3c440ff09a6085<>res://.godot/imported/meteorBrown_big1.png-4f51bd2307bfc1514c3fcc74f73cfab3.ctex::
+playerShip1_blue.png::CompressedTexture2D::7616533849599883667::1771575540::1771575540::1::::<><><>0<>0<>ee12715b5d80e0b21a701af3f62ae43a<>res://.godot/imported/playerShip1_blue.png-781545b5574b1ca3ebab9db6c0cd6317.ctex::
+playerShip1_green.png::CompressedTexture2D::2001637748197818689::1771575540::1771575540::1::::<><><>0<>0<>c5aeac611eceae5f9b6f1b79aafc4e3f<>res://.godot/imported/playerShip1_green.png-48682f9d49da962ab563a1bc5b94a765.ctex::
+snow.png::CompressedTexture2D::4888826356960029576::1771575540::1771575540::1::::<><><>0<>0<>192db43572aa783625f4a7dae8fd8d76<>res://.godot/imported/snow.png-929e917300e1d7cf8ce88dfddb03947d.ctex::
+stone.png::CompressedTexture2D::6534652574608454091::1771575540::1771575540::1::::<><><>0<>0<>7f92a9a2d73bf49940e0cc7493e66136<>res://.godot/imported/stone.png-3a1875e621a1b764516a9ea0026422f2.ctex::
+::res://assets/Small 512x512/::1771575879
+::res://assets/Small 512x512/Blue Nebula/::1771575897
+Blue_Nebula_01-512x512.png::CompressedTexture2D::8089601334313141847::1577861738::1771575897::1::::<><><>0<>0<>34e82ccae74a8ffb0a7f7a0683530dee<>res://.godot/imported/Blue_Nebula_01-512x512.png-8db767ed7fa071ca375abb19f28c06cc.ctex::
+Blue_Nebula_02-512x512.png::CompressedTexture2D::5820839643297976448::1577861855::1771575897::1::::<><><>0<>0<>e12c586dec3bdfdaf04a3a461f8e4ae5<>res://.godot/imported/Blue_Nebula_02-512x512.png-45b72f50bef79f535798fc1431fe1a93.ctex::
+Blue_Nebula_03-512x512.png::CompressedTexture2D::5837041630329331777::1577861947::1771575897::1::::<><><>0<>0<>a37bde526a3bc212b612586dc77067e0<>res://.godot/imported/Blue_Nebula_03-512x512.png-0636d7b0406cb80db9f78c396a5e5f3d.ctex::
+Blue_Nebula_04-512x512.png::CompressedTexture2D::5681465303909136070::1577866576::1771575897::1::::<><><>0<>0<>6476b4982e8d4c1e5402ea5727b2c4d3<>res://.godot/imported/Blue_Nebula_04-512x512.png-7012e9e6de2ea15461ab05c2632cdb11.ctex::
+Blue_Nebula_05-512x512.png::CompressedTexture2D::6662804617506229848::1577867273::1771575897::1::::<><><>0<>0<>7562d48286f273f0193f9734f34d28ef<>res://.godot/imported/Blue_Nebula_05-512x512.png-6ca8c58b77df89eebda5eaaafec2d979.ctex::
+Blue_Nebula_06-512x512.png::CompressedTexture2D::3886650615852720963::1577867370::1771575897::1::::<><><>0<>0<>a0c4defa9888abaf8262a565319af7f2<>res://.godot/imported/Blue_Nebula_06-512x512.png-d0b92071f3b36cfd565f576b27cec339.ctex::
+Blue_Nebula_07-512x512.png::CompressedTexture2D::6789735363121773842::1626180314::1771575897::1::::<><><>0<>0<>470291406b989057d0a4d173101f441d<>res://.godot/imported/Blue_Nebula_07-512x512.png-e4a952e725339986ccf79fc163b1b89a.ctex::
+Blue_Nebula_08-512x512.png::CompressedTexture2D::4151878256756549257::1626180397::1771575897::1::::<><><>0<>0<>3f8e8a28e5f0e824374476ef288d7d03<>res://.godot/imported/Blue_Nebula_08-512x512.png-09cd7bf895905eae4b3c8f2fb2e00255.ctex::
+::res://assets/Small 512x512/Green Nebula/::1771575897
+Green_Nebula_01-512x512.png::CompressedTexture2D::5808352415538760712::1605573518::1771575897::1::::<><><>0<>0<>c65f9bc4bd67bdbf772b5abcb3a437eb<>res://.godot/imported/Green_Nebula_01-512x512.png-e90501249de4647723b1c704e8910914.ctex::
+Green_Nebula_02-512x512.png::CompressedTexture2D::7790495752678547884::1607818955::1771575897::1::::<><><>0<>0<>f4a5c8cbfb0460e73ed742915f18145d<>res://.godot/imported/Green_Nebula_02-512x512.png-e661ebf0be91064fb7b87623aec8b146.ctex::
+Green_Nebula_03-512x512.png::CompressedTexture2D::5872326400119332455::1607819262::1771575897::1::::<><><>0<>0<>6f4e3345800c4f03df2c0984ea7b1cec<>res://.godot/imported/Green_Nebula_03-512x512.png-60d655d5df490e7f1fdb05f2696a09a6.ctex::
+Green_Nebula_04-512x512.png::CompressedTexture2D::6703893462241721300::1607819344::1771575897::1::::<><><>0<>0<>0d656e501a8e1b2bd6887f4e293a3cf5<>res://.godot/imported/Green_Nebula_04-512x512.png-c159d4882f2c30ee85083747bc4146a6.ctex::
+Green_Nebula_05-512x512.png::CompressedTexture2D::7470199431187044769::1626180077::1771575897::1::::<><><>0<>0<>299c0eab731027fece9891a7cae665ac<>res://.godot/imported/Green_Nebula_05-512x512.png-b43ef7b373e5d24b376b7d9b08821506.ctex::
+Green_Nebula_06-512x512.png::CompressedTexture2D::3100863094670840942::1626180528::1771575897::1::::<><><>0<>0<>3ea7d98627b89438e4bbe857fb183ded<>res://.godot/imported/Green_Nebula_06-512x512.png-b28c24ec16222f224e0afd98d2ca7a0b.ctex::
+Green_Nebula_07-512x512.png::CompressedTexture2D::6356481240084334456::1626180624::1771575897::1::::<><><>0<>0<>a0847784a447e93f5a2516e1fb6ecd63<>res://.godot/imported/Green_Nebula_07-512x512.png-16da47d6ab2d31a0cd8ea2ee59c06ed3.ctex::
+Green_Nebula_08-512x512.png::CompressedTexture2D::1980080656347183890::1626180987::1771575897::1::::<><><>0<>0<>5169a4c2ed66f69157b613d0813e8668<>res://.godot/imported/Green_Nebula_08-512x512.png-5d3aa31cece5b2b15bd8751e40ecb214.ctex::
+::res://assets/Small 512x512/Purple Nebula/::1771575897
+Purple_Nebula_01-512x512.png::CompressedTexture2D::1316645817121808062::1577802396::1771575897::1::::<><><>0<>0<>1929a75b4efbc71a7053c4383f893f98<>res://.godot/imported/Purple_Nebula_01-512x512.png-67466c1f3d9fac25dc1860b171fb4ac2.ctex::
+Purple_Nebula_02-512x512.png::CompressedTexture2D::2155390437126443557::1577819443::1771575897::1::::<><><>0<>0<>e51e78d8e08cd9393c7d8e9bae155aa7<>res://.godot/imported/Purple_Nebula_02-512x512.png-37b8b5cfa3dac0155559d9aee92ad2c2.ctex::
+Purple_Nebula_03-512x512.png::CompressedTexture2D::1498464221017813411::1577867681::1771575897::1::::<><><>0<>0<>f245f177cbf40de83645355cb0a31047<>res://.godot/imported/Purple_Nebula_03-512x512.png-39704df352a78c7d21640897fc2b0f8d.ctex::
+Purple_Nebula_04-512x512.png::CompressedTexture2D::578700267476830656::1607818777::1771575897::1::::<><><>0<>0<>6876b729ad97234dd9a17b3bd9fcf4ba<>res://.godot/imported/Purple_Nebula_04-512x512.png-dd85c88652fb93a24a904d937c52eccd.ctex::
+Purple_Nebula_05-512x512.png::CompressedTexture2D::7181165650089656750::1607818830::1771575896::1::::<><><>0<>0<>a8a3d3db62b5145c8d13214a72266c23<>res://.godot/imported/Purple_Nebula_05-512x512.png-870707ddf0119374517ebd3f360ea2af.ctex::
+Purple_Nebula_06-512x512.png::CompressedTexture2D::8358286665493077517::1626180686::1771575896::1::::<><><>0<>0<>292a14da2c29ceae206358e5a045e875<>res://.godot/imported/Purple_Nebula_06-512x512.png-35c3e4f1173ae27a0e8ad98a13e72361.ctex::
+Purple_Nebula_07-512x512.png::CompressedTexture2D::5788547707353685271::1626180823::1771575896::1::::<><><>0<>0<>17a86c806ad749f6dc71155f73be62e1<>res://.godot/imported/Purple_Nebula_07-512x512.png-b4c5fb580f95a16aff4a59a718343f70.ctex::
+Purple_Nebula_08-512x512.png::CompressedTexture2D::6775700702951720970::1626181184::1771575896::1::::<><><>0<>0<>8b2923fd5e499d4c09e8c1d883b7163a<>res://.godot/imported/Purple_Nebula_08-512x512.png-3b00a31cb4b96ed9519c6b921a1858df.ctex::
+::res://assets/Small 512x512/Starfields/::1771575896
+Starfield_01-512x512.png::CompressedTexture2D::5717120868934228818::1605573979::1771575896::1::::<><><>0<>0<>ef7ab32ce331d6b357b3d88b6a4ebecc<>res://.godot/imported/Starfield_01-512x512.png-61fde8b2e46ae1d1d27c9a9b695d3942.ctex::
+Starfield_02-512x512.png::CompressedTexture2D::7038282537077501281::1605574180::1771575896::1::::<><><>0<>0<>af4fcded0f8504cf21ef97f5ac3fff0b<>res://.godot/imported/Starfield_02-512x512.png-aebe3bf088e781e2e942a6e2110853f4.ctex::
+Starfield_03-512x512.png::CompressedTexture2D::3714087397547686313::1626179313::1771575896::1::::<><><>0<>0<>ef9b785a67e7f7be05edc6867f2dcae5<>res://.godot/imported/Starfield_03-512x512.png-af620f8ecd0ffd45e6f94432eddfb7d1.ctex::
+Starfield_04-512x512.png::CompressedTexture2D::6500549651393281581::1626179533::1771575896::1::::<><><>0<>0<>b3ad6da285a8f1add9d84f0cdd660f3e<>res://.godot/imported/Starfield_04-512x512.png-7d04a43e7558bb4a5996a558eddfc634.ctex::
+Starfield_05-512x512.png::CompressedTexture2D::351393646530003744::1626179675::1771575896::1::::<><><>0<>0<>8ab12f792b02941f656f2deb143a3495<>res://.godot/imported/Starfield_05-512x512.png-0fda132a3151782e6193f1d81fac245e.ctex::
+Starfield_06-512x512.png::CompressedTexture2D::2063629339077374745::1626179782::1771575896::1::::<><><>0<>0<>09a0d064bfb231ccd664550dea61e85b<>res://.godot/imported/Starfield_06-512x512.png-789f7b08f68a4ffeb48f77c078b02202.ctex::
+Starfield_07-512x512.png::CompressedTexture2D::2415350860869694448::1626179868::1771575896::1::::<><><>0<>0<>9a63a2ea3eedff90c84643400f7d0f30<>res://.godot/imported/Starfield_07-512x512.png-a718dc27d62047d44e40d0de068330da.ctex::
+Starfield_08-512x512.png::CompressedTexture2D::2811762920523570567::1626180001::1771575896::1::::<><><>0<>0<>af6dd42cae603e8d35abd1f6b3ae514e<>res://.godot/imported/Starfield_08-512x512.png-8eec9e27ce1b37a00e900a76d9009be0.ctex::
+::res://scenes/::1771581921
+BlueShip.tscn::PackedScene::211729922060446004::1771581104::0::1::::<><><>0<>0<><>::uid://dgrrg14sgp4f4::::res://assets/playerShip1_blue.png
+greenShip.tscn::PackedScene::1919816012740124444::1771577090::0::1::::<><><>0<>0<><>::uid://3ruxfsvp87ub::::res://assets/playerShip1_green.png
+MainLevel.tscn::PackedScene::5012948746790269291::1771581389::0::1::::<><><>0<>0<><>::uid://y5a4e3ajuy2r::::res://scenes/StonePlatform.tscn<>uid://datfp8kxjrjg::::res://scenes/BlueShip.tscn<>uid://bsuv2svmaqypq::::res://scripts/PlatformBlue.gd<>uid://x2rdmjyr1ttw::::res://scripts/ObjectiveArea.gd
+secondLevel.tscn::PackedScene::866513831369250896::1771581921::0::1::::<><><>0<>0<><>::uid://dniws1gt2m3wl::::res://assets/Small 512x512/Blue Nebula/Blue_Nebula_01-512x512.png<>uid://2l8dbfsh07v1::::res://scenes/greenShip.tscn<>uid://bof5gr7ns5et8::::res://scripts/GreenShipController.gd<>uid://ct0jns3j6qqo6::::res://scenes/snow_platform.tscn<>uid://y5a4e3ajuy2r::::res://scenes/StonePlatform.tscn<>uid://dh610bbucs6rh::::res://assets/fasilkom.png
+snow_platform.tscn::PackedScene::6158609497741792971::1771577225::0::1::::<><><>0<>0<><>::uid://cbwgix0inp3tk::::res://assets/snow.png
+StonePlatform.tscn::PackedScene::1746515621318578487::1771576216::0::1::::<><><>0<>0<><>::uid://c0do1j2bc1edf::::res://assets/stone.png
+::res://scripts/::1771581389
+GreenShipController.gd::GDScript::3381219550888869351::1771581274::0::1::::<>CharacterBody2D<><>0<>0<><>::
+ObjectiveArea.gd::GDScript::1671119794590757256::1771581389::0::1::::<>Area2D<><>0<>0<><>::
+PlatformBlue.gd::GDScript::3692431675949484974::1771575540::0::1::::<>Node2D<><>0<>0<><>::
